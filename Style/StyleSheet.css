@@ -1,0 +1,880 @@
+﻿body {
+}
+#Banner {
+    margin:auto;
+}
+#WholePage
+{
+    position:relative;
+    width:auto;
+    height:auto;
+    margin:auto;
+    overflow-x: hidden;
+}
+#Menu {
+    width:auto;
+    height:250px;
+}
+.helpBtn {
+    position:relative;
+    width:75px;
+    height:75px;
+    top:75px;
+    left:75px;
+}
+.SiteName {
+    position:relative;
+    width:445px;
+    height:86px;
+    left:610px;
+    top:25px;    
+} 
+#shortestLine
+{
+    position:relative;
+    height:25px;
+    width:0px;
+    top:70px;
+    left:1810px;
+    border:1px solid #222222;
+}   
+inputs:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
+
+inputs-moz-placeholder {
+    color: #b5b5b5;
+}
+.inputs {
+    position:relative;
+    width: 550px;
+    height:38px;
+    top:95px;
+    left:120px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9E9E;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
+.inputs:focus {
+    background: #DFE9EC;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+.inputs:hover {
+    background: #DFE9EC;
+    color: #414848;
+}
+
+.SearchButton{
+    position:relative;
+    width:82px;
+    height:25px;
+    left:118px;
+    top:100px;
+}
+.LogIn{
+    position:relative;
+    left:560px;
+    top:110px;
+    width:69px;
+    height:18px;
+}
+.Basket{
+    position:relative;
+    width:34px;
+    height:25px;
+    top:40px;
+    left:1820px;    
+}
+.shareBtn{
+    position:relative;
+    width:108px;
+    height:30px;
+    top:-60px;
+    left:1700px;
+}
+
+#menuButtons
+{
+    position:relative;
+    top:50px;
+    left:730px;
+}
+
+.menuBtn{
+     text-decoration: none;
+     font-family:'Copperplate Gothic';
+     padding-left:520px;
+     color:black;
+}
+.menuBtn:link
+{
+    color:black;
+    background-color:transparent;
+    text-decoration:none;
+    font-family:'Copperplate Gothic';
+    font-size:17px;
+    padding-top:6px;
+    padding-left:3px;
+    padding-bottom:6px;
+    padding-right:3px;
+}
+#backSldier
+{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+#frontSlider
+{
+    position:absolute;
+    width:900px;
+    height:auto;
+    top:260px;
+    left:500px;
+}
+#smallSlider
+{
+    position:absolute;
+    width:1150px;
+    top:650px;
+    left:438px;
+    float:left;
+    z-index:2;
+}
+.smallSliderImage
+{
+    position:relative;
+    width:220px;
+    height:120px;
+    padding-left:40px;
+    top:25px;
+}
+.smallSliderImage1
+{
+    position:relative;
+    width:220px;
+    height:120px;
+    left:255px;
+    top:-100px;
+    display:inline-block;
+}
+.smallSliderImage2
+{
+    position:relative;
+    width:220px;
+    height:120px;
+    left:515px;
+    top:-225px;
+    display:inline-block;
+}
+.smallSliderImage3
+{
+    position:relative;
+    width:220px;
+    height:120px;
+    left:770px;
+    top:-350px;
+    display:inline-block;
+}
+#cubeSlider
+{
+    position:absolute;
+    width:900px;
+    height:auto;
+    top:4000px;
+    left:500px;
+
+}
+.recipeImage{
+    position:relative;
+    width:250px;
+    height:250px;
+    border: 0px solid #979797;
+}
+.recipeList{
+    position:relative;
+    top:60px;
+    margin:auto;
+    left:75px;
+    max-height:500px;
+    scrolbar:none;
+}
+.quickBasket{
+    position:relative;
+    left:-300px;
+    top:-257px;
+    width:56px;
+    height:56px;
+}
+
+.stickStyle {
+    position:relative;
+    width:50px;
+    top:-3px;
+    left:250px;
+    border:1px solid #979797;
+    
+}
+.stickStyle1 {
+     position:relative;
+    width:310px;
+    left:-2px;
+    border:1px solid #979797;
+
+}
+@font-face {
+    font-family: 'LeagueGothic-Regular';
+    src: url('../Fonts/LeagueGothic-Regular.otf') format('opentype');
+    
+}
+#cateName{
+      font-family: "LeagueGothic-Regular";
+      font-size:25px;
+      text-decoration:none;
+}
+
+.timerStyle{
+    position:relative;
+    top:-395px;
+    left:-105px;
+    width:35px;
+    height:35px;
+}
+.timerStyle1{
+    position:relative;
+    top:-25px;
+    left:-185px;
+    width:35px;
+    height:35px;
+}
+.timeFont
+{
+    position:relative;
+    top:-405px;
+    left:-100px;
+}
+.starStyle{
+    position:relative;
+    width:310px;
+    height:45px;
+    left:-10px;
+}
+.badgesStyle
+{
+    position:relative;
+    width:48px;
+    height:280px;
+    top:-335px;
+    left:255px;
+}
+.badgeStyle
+{
+    position:relative;
+    width:45px;
+    height:45px;
+    top:-571px;
+    left:204px;
+}
+.badgeStyle1
+{
+    position:relative;
+    width:45px;
+    height:45px;
+    top:-514px;
+    left:155px;
+}
+
+.forkStyle
+{
+    position:relative;
+    top:-285px;
+    left:-210px;
+    width:25px;
+    height:50px;
+}
+.forkStyle1 {
+    position:relative;
+    top:-18px;
+    left:-210px;
+    width:25px;
+    height:50px;
+}
+
+.recipePicture
+{
+    position:relative;
+    width:334px;
+    height:334px;
+    border: 0px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,4.50);
+
+}
+.recipeBadge {
+    position:relative;
+    width:75px;
+    height:75px;
+
+}
+
+.horizontalStick
+{
+    position:relative;
+    width:0px;
+    height:400px;
+    left:76px;
+    border:1px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+}
+
+#recipeBadges
+{
+    position:relative;
+    float:left;
+    width:75px;
+    height:160px;
+}
+#recipePictures
+{
+    position:relative;
+    float:left;
+    width:auto;
+    height:auto;
+    top:-385px;
+    left:100px;
+}
+.infoStyle
+{
+    position:relative;
+    top:15px;
+    width:49px;
+    height:49px;
+}
+.addStyle
+{
+    position:relative;
+    left:1200px;
+    width:49px;
+    height:49px;
+}
+.vStarStyle
+{
+    position:relative;
+    width:322px;
+    height:38px;
+    left:100px;
+    top:-400px;
+}
+#Ingredient
+{
+    position:relative;
+    top:-300px;
+    left:-50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+ 
+}
+.longStick
+{
+    position:relative;
+    width:auto;
+    left:-50px;
+    top:-260px;
+    border:1px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+}
+
+#RecipeDetails
+{
+    position:absolute;
+    left:500px;
+    top:350px;
+    overflow:scroll;
+    overflow-x: hidden;
+    height:280px;
+    width:1350px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.DetailList
+{
+    position:relative;    
+}
+#forkAndTime
+{
+    position:relative;
+    left:1100px;
+    top:-20px;
+}
+.amountTextBox
+{
+    position:absolute;
+    left:450px;
+    height:10px;
+    font-size: 15px;
+    color: #222222;
+    letter-spacing: 0px;
+}
+.recipeName
+{
+    position:absolute;
+    left:250px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size:24px;
+}
+.costLabel
+{
+    position:absolute;
+    font-size:24px;
+    left:550px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 24px;
+    color: #417505;
+    letter-spacing: 0px;
+
+}
+
+#deneme
+{
+    position:relative;
+    height:300px;
+    border: 1px solid #000000;
+}
+
+#postedImages
+{
+    position:absolute;
+    top:650px;
+    left:90px;
+    width:350px;
+    height:100px;
+}
+.postedPicture
+{
+    position:relative;
+    width:65px;
+    height:65px;
+    left:20px;
+    top:5px;
+}
+#addAll
+{
+    position:absolute;
+    top:650px;
+    left:1500px;
+    width:350px;
+    height:auto;
+}
+.addAllStyle
+{
+    position:relative;
+    left:220px;
+    width:49px;
+    height:49px;
+}
+.labelStyle
+{
+    position:relative;
+    top:-15px;
+    left:200px;
+    font-family: "LeagueGothic-Regular";
+    font-size:30px;
+}
+#secondHalfPage
+{
+    position:absolute;
+    top:730px;
+
+    width:1880px;
+    height:300px;
+}
+#firstHalf 
+{
+    position:absolute;
+    width:935px;
+    
+    height:300px;
+}
+#secondHalf
+{
+    position:absolute;
+    width:935px;
+    padding-top:21px;
+    left:940px;
+    height:300px;
+}
+.directionStyle
+{
+    position:relative;
+    left:35px;
+    font-family: "LeagueGothic-Regular";
+    font-size:30px;
+    
+}
+#shortLine
+{
+    position:relative;
+    width:0px;
+    height:60px;
+    border:1px solid #999999;
+    top:-347px;
+    left:-120px;
+}
+#shortLine1
+{
+    position:relative;
+    width:0px;
+    height:60px;
+    border:1px solid #999999;
+    top:-451px;
+    left:5px;
+}
+.shortStickStyle
+{
+    position:relative;
+    width:850px;
+    left:20px;
+    border:1px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+}
+.pauseStyle
+{
+    position:relative;
+    left:710px;
+    width:50px;
+    height:50px;
+}
+.textureBoxStyle
+{
+    position:absolute;
+    width:800px;
+    height:450px;
+    top:130px;
+    left:40px;
+    border: 1px solid #979797;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+.DirectionText
+{
+    position:absolute;
+    top:100px;
+    left:20px;
+    right:20px;
+    font-family: "LeagueGothic-Regular";
+    font-size:30px;
+
+}
+#sideDishes
+{
+    position:absolute;
+    left:950px;
+    top:800px;
+    overflow:scroll;
+    overflow-y: hidden;
+    height:310px;
+    width:900px;
+    font-family: "LeagueGothic-Regular";
+    font-size: 24px;
+}
+
+.sideDishesList
+{
+    position:relative;
+}
+#Related
+{
+    position:relative;
+    left:100px;
+    padding-top:20px;
+    overflow:scroll;
+    overflow-y: hidden;
+    height:310px;
+    width:1550px;
+    font-family: "LeagueGothic-Regular";
+        font-size: 24px;
+}
+.releatedList{
+    position:relative;
+}
+.relatedImage
+{
+    position:relative;
+    width:221px;
+    height:221px;
+    border: 0px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,4.50);
+}
+
+#lastPart
+{
+    position:absolute;
+    top:1400px;
+    width:1880px;
+    height:360px;
+}
+.fullStickStyle 
+{
+    position:relative;
+    width:1800px;
+    left:20px;
+    border:1px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+}
+.RelatedText
+{
+    position:relative;
+    left:35px;
+    font-family: "LeagueGothic-Regular";
+    font-size:30px;
+}
+.verticalStar
+{
+    position:relative;
+    left:10px;
+    width:200px;
+    height:26px;
+}
+#info
+{
+    position:absolute;
+    top:250px;
+    left:485px;
+    width:1350px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 23px;
+}
+.firstStickStyle
+{
+    position:relative;
+    top:30px;
+    width:1345px;
+    height:0px;
+    border:1px solid #979797;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+}
+
+.hyperLinkStyle
+{
+    text-decoration:none;
+    color:#000000;
+}
+.rightStyle
+{
+    position:relative;
+    left:15px;
+    width:20px;
+    height:63px;
+}
+.leftStyle
+{
+    position:relative;
+    left:30px;
+    width:20px;
+    height:63px;
+}
+.categoryText
+{
+    position:relative;
+    margin:auto;
+    font-family: 'Josefin Sans', sans-serif;
+    left:780px;
+    font-size: 45px;
+}
+#CategoryMenu
+{
+    position:relative;
+    margin:auto;
+    width:auto;
+    height:auto;
+
+}
+
+#Category
+{
+    position:relative;
+    left:-20px;
+    float:left;
+}
+#categoryFontHolder
+{
+    position:absolute;
+    top:-190px;
+    left:50px;
+    z-index:2;
+    width: 10px;
+}
+.categoryHyperStyle
+{
+    position:relative;
+    float:left;
+    top:500px;
+    width:1px;
+    height:200px;
+    font-family: "LeagueGothic-Regular";
+    font-size:40px;
+    text-decoration:none;
+    color:white;
+
+}
+
+.cutCorner {
+    position:relative;
+    left:250px;
+    border:1px solid silver; display: inline-block;
+}
+
+.cutCorner img {
+    display:block;
+}
+
+.cutCorner:before {
+    position:absolute; left:-1px; top:-1px; content:'';
+    border-top: 230px solid silver;
+    border-right: 230px solid transparent;
+}
+
+.cutCorner:after {
+    position:absolute; left:-2px; top:-2px; content:'';
+    border-top: 230px solid white;
+    border-right: 230px solid transparent;
+}
+.CategoryList
+{
+    position:relative;
+    float:left;
+}
+.categoryImageStyleOthers
+{
+    position:relative;
+    width:1024px;
+    height:700px;
+}
+#categoryHolder
+{
+    position:relative;
+    width:180px;
+    height:705px;
+    z-index:1;
+}
+#imageHolder
+{
+    position:relative;
+}
+#categoryHolder:hover
+{
+    position:relative;
+   
+    width:1024px;
+    height:705px;
+    left:-100px;
+    z-index:2;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  height:550px;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  height:550px;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  height:550px;
+  -webkit-filter: blur(15px);
+  }
+.slider {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 954px;
+  height:400px;
+  padding: 0;
+  margin: 0;
+  }
+
+.slider li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 954px;
+  height:400px;
+  left: 0;
+  top: 0;
+  }
+
+.slider li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.sliderImage {
+  display: block;
+  height: auto;
+  float: left;
+  width: 954px;
+  height:400px;
+  }
+
+#leftBar
+{
+    position:absolute;
+    top:830px;
+    left:0px;
+
+}
+.leftBarStyle
+{
+    width:300px;
+    height:348px;   
+}
+#rightBar
+{
+    position:absolute;
+    top:750px;
+    right:0px;
+    float:right;
+}
+.rightBarStyle
+{
+    width:350px;
+    height:1065px;   
+}
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="Style/StyleSheet.css" rel="stylesheet" />
+    
+    
+
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="WholePage">
+        <div id="Banner">
+
+            <div id="Menu">
+                <asp:ImageButton CssClass="helpBtn" ID="helpButton" src="\images\help.png" runat="server" />
+                <asp:ImageButton CssClass="SiteName" PostBackUrl="~/HomePage.aspx" ID="Recipetion" src="\images\Recipetion.png" runat="server" />
+                <asp:TextBox ID="SearchBox" class="inputs" placeholder="FIND RECIPES.." runat="server"></asp:TextBox>
+                <asp:ImageButton CssClass="SearchButton" ID="SearchButton" src="\images\SearchButton.png" runat="server" />
+                <asp:ImageButton CssClass="LogIn" ID="LogInButton" src="\images\LogIn.png" runat="server" />
+                <div id="shortestLine"></div>
+                <asp:ImageButton CssClass="Basket" ID="BasketButton" src="\images\cart.png" runat="server" />
+                <asp:ImageButton CssClass="shareBtn" ID="ImageButton1" src="\images\shareButtons.png" runat="server" />
+
+                <div id="menuButtons">
+                    <a class="menuBtn" href="HomePage.aspx"><b>RECIPIES</b></a>
+                    <a class="menuBtn" href="Categories.aspx"><b>CATEGORIES</b></a>
+                    <a class="menuBtn" href="url"><b>SHOP</b></a>
+                    <a class="menuBtn" href="url"><b>TIPS</b></a>
+                </div>                
+            </div>
+         
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
